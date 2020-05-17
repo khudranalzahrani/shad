@@ -1,0 +1,86 @@
+buildscript {
+    repositories {
+        maven { url 'https://maven.fabric.io/public' }
+    }
+
+    dependencies {
+        classpath 'io.fabric.tools:gradle:1.+'
+    }
+}
+apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'firebits'
+            keyPassword 'WSzZmSck5gs4NgEP'
+            storeFile file('E:/Business & Work/keys/debugall.jks')
+            storePassword 'WSzZmSck5gs4NgEP'
+        }
+    }
+    compileSdkVersion 28
+    useLibrary 'org.apache.http.legacy'
+    defaultConfig {
+        applicationId "com.smt.shahad_3asal"
+        minSdkVersion 15
+        targetSdkVersion 28
+        versionCode 7
+        versionName "1.0.6"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+        multiDexEnabled true
+
+    }
+//    lintOptions {
+//        checkReleaseBuilds false
+//        // Or, if you prefer, you can continue to check for errors in release builds,
+//        // but continue the build even when errors are found:
+//        abortOnError false
+//    }
+    buildTypes {
+        release {
+//            minifyEnabled false
+//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+        }
+    }
+}
+repositories {
+    mavenCentral()
+    maven { url 'https://maven.fabric.io/public' }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.google.android.gms:play-services-maps:16.0.0'
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support:design:28.0.0'
+    implementation 'com.android.support:support-v4:28.0.0'
+    implementation 'uk.co.chrisjenx:calligraphy:2.2.0'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    //    implementation 'com.google.android.gms:play-services-maps:10.0.1'
+    //    implementation 'com.google.android.gms:play-services-location:10.0.1'
+    implementation 'com.nineoldandroids:library:2.4.0'
+    implementation 'com.daimajia.slider:library:1.1.5@aar'
+    implementation 'com.squareup.okhttp:okhttp:2.0.0'
+    implementation 'com.google.code.gson:gson:2.2.4'
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
+    implementation 'com.github.bumptech.glide:glide:3.7.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.1.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.1.0'
+    implementation 'com.facebook.android:facebook-android-sdk:4.16.0'
+    implementation 'com.facebook.android:facebook-android-sdk:[4,5)'
+    implementation 'com.android.support:multidex:1.0.1'
+    implementation 'com.bogdwellers:pinchtozoom:0.1'
+    implementation 'com.github.JakeWharton:ViewPagerIndicator:2.4.1'
+    implementation 'com.commit451:PhotoView:1.2.4'
+    implementation 'com.android.support:multidex:1.0.1'
+    implementation 'de.hdodenhof:circleimageview:2.1.0'
+    testImplementation 'junit:junit:4.12'
+    implementation 'com.crashlytics.sdk.android:crashlytics:2.9.9'
+}

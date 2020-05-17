@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:id="@+id/subcatogres_Main"
+    android:gravity="center"
+    android:layout_margin="5dp">
+
+    <ImageView
+        android:id="@+id/sub_catigory_image"
+        android:layout_margin="3dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/muzdan_logo1"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:layout_margin="3dp">
+
+        <TextView
+            android:textColor="@color/blacktransparent"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:id="@+id/sub_catigory_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:text="uhbuyby"/>
+
+    </LinearLayout>
+</LinearLayout>

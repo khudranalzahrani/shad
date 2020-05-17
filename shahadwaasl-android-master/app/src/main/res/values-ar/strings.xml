@@ -1,0 +1,159 @@
+<resources>
+    <string name="app_name">شهد وعسل</string>
+    <string name="leave">ارجع للخلف مرة أخرى لإغلاق التطبيق</string>
+    <string name="navigation_drawer_open">فتح قائمة الانتقالات</string>
+    <string name="navigation_drawer_close">غلق قائمة الانتقالات</string>
+    <string name="msg_loading">جاري التحميل. انتظر من فضلك…</string>
+
+    <string name="msg_check_connection">من فضلك تحقق من الاتصال بالانترنت و أعد المحاولة</string>
+    <string name="msg_check_server">لم يتمكن التطبيق من الاتصال بالخادم , برجاء المحاولة مرة أخرى</string>
+    <string name="label_retry">إعادة المحاولة</string>
+    <string name="label_cancel">إلغاء</string>
+
+    <string name="label_ok">موافق</string>
+    <string name="Search">بحث</string>
+    <string name="setting">الإعدادات</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="msg_enter_valid_pass">من فضلك ادخل كلمة المرور لا تقل عن 8 احرف  </string>
+    <string name="msg_enter_valid_email">برجاء ادخال بريد الكترونى صحيح</string>
+    <string name="msg_enter_valid_comment">برجاء ادخال تعليق بحد ادنى 10 حروف</string>
+    <string name="msg_enter_valid_phone">برجاء ادخال رقم هاتف صحيح </string>
+    <string name="msg_enter_same_password">يجب أن تتطابق كلمات المرور</string>
+    <string name="msg_enter_valid_email_or_phone">البريد الالكتروني مسجل لدينا من قبل</string>
+    <string name="please_enter">من فضلك أدخل </string>
+
+    <string name="msg_enter_valid"> علي الاقل 4 احرف</string>
+
+    <string name="hello_blank_fragment">تحت الانشاء</string>
+    <string name="login">تسجيل الدخول إلى المتجر</string>
+    <string name="E.mail">البريد الألكترونى</string>
+    <string name="facebook">فيس بوك</string>
+    <string name="haveaccount">لم تسجل لدينا من قبل؟</string>
+    <string name="Skip"> تخطي </string>
+    <string name="name">الإسم</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="mobile"> ex. 9661234567890 رقم المحمول</string>
+    <string name="mobile2"> رقم المحمول</string>
+    <string name="pass">كلمة المرور</string>
+    <string name="register">تسجيل</string>
+    <string name="loginword">دخول</string>
+    <string name="loginstring">أدخل رقم هاتفك و كلمة المرور</string>
+    <string name="empty" />
+    <string name="home">الرئيسية</string>
+    <string name="catigores">الأقسام</string>
+    <string name="nearststores">أقرب المتاجر</string>
+    <string name="lastorder">اخر الطلبات</string>
+    <string name="wishlist">قائمة الأمنيات</string>
+    <string name="cart">عربة التسوق</string>
+    <string name="search">بحث</string>
+    <string name="send">إرسال</string>
+    <string name="contactus">تواصل معنا</string>
+    <string name="aboutus">عن التطبيق</string>
+    <string name="msg_logout">هل توافق على تسجيل الخروج؟</string>
+    <string name="noproducts">لا يوجد منتجات للعرض فى هذا القسم !</string>
+
+    <string name="reviews"> <u>قراءة التقييمات</u>.</string>
+    <string name="addreviews"> اضف تقييم </string>
+    <string name="addcomment">إضافة تعليق</string>
+    <string name="comment">تعليق</string>
+    <string name="addtocart">أضف للعربة</string>
+    <string name="addtowishlist">أضف لقائمة الأمنيات</string>
+    <string name="loginto">برجاء تسجيل الدخول للمتابعة</string>
+    <string name="ok">موافق</string>
+    <string name="Succes">تم اضافة مراجعتك بنجاح</string>
+    <string name="product">منتج</string>
+    <string name="reviewsword">مراجعات</string>
+    <string name="wishlistempity">قائمة امنياتك فارغة </string>
+    <string name="cartempty">عربة التسوق فارغة </string>
+    <string name="delete">هل توافق على مسح العنصر ؟</string>
+    <string name="deletitem">تم مسح العنصر بنجاح </string>
+    <string name="qty">الكمية.</string>
+    <string name="outstock">نفذ المنتج</string>
+    <string name="checkout">إتمام الشراء</string>
+    <string name="total">المجموع</string>
+    <string name="sar">ر.س</string>
+    <string name="item">منتج(ات)</string>
+    <string name="discoverproduct">استكشف المنتجات</string>
+    <string name="nomatch">للأسف لم نجد منتجت ذات صلة</string>
+
+    <string name="message">info@shahadw3sal.com</string>
+    <string name="website">www.shahadw3sal.com</string>
+    <string name="phone">+966114771114</string>
+    <string name="contact_info">إذا كان لديك أى أسئلة أو مقترحات يسعدنا التواصل معنا</string>
+    <string name="send_Comment">تم إضافة التعليق بنجاح</string>
+
+
+    <string name="language">تغير الغة</string>
+    <string name="welcome">مرحبا</string>
+
+    <string name="lastname">الاسم الثانى</string>
+    <string name="address1">العنوان الاول</string>
+    <string name="address2">العنوان التانى</string>
+    <string name="city">المنطقة</string>
+    <string name="country">الدولة</string>
+    <string name="zone">المدينة</string>
+    <string name="postcode">رقم البريد</string>
+    <string name="Continue">متابعة</string>
+
+    <string name="about_us">Shahad Wa Asal Shop version 1.0</string>
+    <string name="copy_right">\u00a9 2019 SMT</string>
+
+    <!-- Todo Old App ID -->
+    <!--<string name="facebook_app_id">1883976791867752</string>-->
+    <!--<string name="fb_login_protocol_scheme">fb1883976791867752</string>-->
+
+    <!--Todo New App ID-->
+    <!--<string name="facebook_app_id">295654904479492</string>-->
+    <!--<string name="fb_login_protocol_scheme">fb295654904479492</string>-->
+
+    <string name="payment">تفاصيل الدفع</string>
+    <string name="savedAddress">استخدام عنوان مسجل من قبل</string>
+    <string name="newAddress">اضافة عنوان جديد</string>
+    <string name="paymentAddress">عنوان الدفع</string>
+    <string name="ToastConfirm">تم التاكيد بنجاح</string>
+    <string name="ToastConfirmPrev">تم التاكيد من قبل</string>
+    <string name="confirm">تاكيد</string>
+    <string name="TitleNewPaymentAddress">عنوان الدفع</string>
+    <string name="Fname">الاسم الاول </string>
+    <string name="sname">الاسم الثانى</string>
+    <string name="area">المنطقة</string>
+    <string name="continue_">متابعة</string>
+    <string name="ask">هل عنوان الشحن مثل عنوان الدفع ؟</string>
+    <string name="TitleNewShippingAddress">عنوان الشحن </string>
+    <string name="msg_enter_valid_postCode"> من فضلك ادخل كود بريدى صحيح</string>
+    <string name="forgetpassword">هل نسيت كلمة المرور ؟</string>
+    <string name="passrecovery">استعادة كلمة المرور</string>
+    <string name="msg_enter_valid_name">من فضلك يجب الا يحتوى الاسم على ارقام</string>
+    <string name="msg_add_comment">من فضلك اضف تقييم </string>
+    <string name="msg_valid_comment">اضف تعليق بحد ادنى 10 حروف </string>
+    <string name="msg_validate_rate">من فضلك اضف تقييم </string>
+    <string name="msg_continue_from_cart">متابعة</string>
+    <string name="msg_invalid_login"> برجاء التحقق من البريد الالكترونى وكلمة المرور </string>
+    <string name="msg_add_cart">تمت الاضافة الى العربة بنجاح</string>
+    <string name="msg_not_add_cart">عفوا لايمكن اضافة هذا المنتج للعربة</string>
+    <string name="status">الحالة</string>
+    <string name="products">منتجات</string>
+    <string name="msg_login"> من فضلك سجل دخولك اولا  </string>
+    <string name="msg_enter_valid_name_at_lest_4ch"> من فضلك ادخل الاسم بحد ادنى 4 حروف </string>
+    <string name="msg_valid_review"> من فضلك ادخل تعليق بحد ادنى 10 حروف </string>
+
+    <string name="loginPass">من فضلك ادخل كلمة المرور</string>
+    <string name="registerPass">من فضلك ادخل كلمة المرور لا تقل عن 8 احرف </string>
+
+    <string name="no_payment_address">لم تقم بادخال اى عناوين سابقه</string>
+    <string name="success_register">تم التسجيل بنجاح</string>
+
+    <string name="visitor">مرحبا</string>
+    <string name="verification_code">رمز التحقق</string>
+    <string name="verification_code_not">لم احصل علي رمز التحقق بال sms؟!</string>
+    <string name="registerVerify">رجاءا ادخل الاربعة ارقام التي اُرسلة لك</string>
+    <string name="verify">تحقق</string>
+    <string name="update_password">تحديث كلمة المرور</string>
+    <string name="new_password">كلمة مرور جديدة</string>
+
+    <string name="sms_msg">لقد تم ارسال رمز تحقق الي هاتفك</string>
+    <string name="pass_msg">تم تحديث كلمة المرور</string>
+    <string name="mgas_service">خدمة المقاسات الفورية</string>
+    <string name="call_us">اتصل بنا</string>
+    <string name="call_us_txt"> +966531356800 اضغط موافق للاتصال</string>
+</resources>

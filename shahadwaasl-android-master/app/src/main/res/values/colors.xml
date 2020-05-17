@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#ef6426</color>-->
+    <color name="colorPrimary">#f6931e</color>
+    <color name="colorPrimaryDark">#f6931e</color>
+    <color name="colorAccent">#f6931e</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorblack">#000000</color>
+    <color name="blacktransparent">#B3000000</color>
+    <color name="mainblack">#0e1428</color>
+    <color name="trnsparent">#00000000</color>
+    <color name="gray">@android:color/darker_gray</color>
+    <color name="red">#E0D4071F</color>
+    <color name="redlight">#F6F50521</color>
+    <color name="te">#F6F50521</color>
+</resources>

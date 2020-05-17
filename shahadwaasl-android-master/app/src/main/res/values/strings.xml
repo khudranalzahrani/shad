@@ -1,0 +1,158 @@
+<resources>
+    <string name="app_name">شهد وعسل</string>
+    <string name="leave">press back again to exit</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="msg_loading">Loading. Please wait...</string>
+
+    <string name="msg_check_connection">Please check internet connection and try again</string>
+    <string name="msg_check_server">Couldn\'t reach server, please try again later</string>
+    <string name="label_retry">Retry</string>
+    <string name="label_cancel">Cancel</string>
+
+    <string name="label_ok">OK</string>
+    <string name="Search">Search</string>
+    <string name="setting">Setting</string>
+    <string name="logout">Log Out</string>
+
+    <string name="msg_enter_valid_email">Please enter valid EMail</string>
+    <string name="msg_enter_valid_comment">Please enter comment at least 10 char  </string>
+    <string name="msg_enter_valid_pass">Please enter Password at least 8 char  </string>
+    <string name="msg_enter_valid_phone">Please enter valid phone number </string>
+    <string name="msg_enter_same_password">password must be the same</string>
+    <string name="msg_enter_valid_email_or_phone">Email Already Have Account</string>
+    <string name="please_enter">Please enter</string>
+
+    <string name="msg_enter_valid"> at least 4 char</string>
+    <string name="hello_blank_fragment">Under Development</string>
+    <string name="login">Login to Shahad Wa Asal Shop</string>
+    <string name="E.mail">E-MAIL</string>
+    <string name="facebook">FACEBOOK</string>
+    <string name="haveaccount">Don\'t have an account\?</string>
+    <string name="Skip">Skip ></string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="mobile">Mobile ex. 9661234567890</string>
+    <string name="mobile2">Mobile</string>
+    <string name="pass">Password</string>
+    <string name="register">Register</string>
+    <string name="loginword">Login</string>
+    <string name="loginstring">Enter phone and password</string>
+    <string name="empty" />
+    <string name="home">Home</string>
+    <string name="catigores">Categories</string>
+    <string name="nearststores">Nearest Stores</string>
+    <string name="lastorder">Latest Orders</string>
+    <string name="wishlist">Wish List</string>
+    <string name="cart">Cart</string>
+    <string name="search">Search</string>
+    <string name="send">Send</string>
+    <string name="contactus">Contact Us</string>
+    <string name="aboutus">About Us</string>
+    <string name="msg_logout">You will logout, Are you sure ?</string>
+    <string name="noproducts">No product found in this category !</string>
+
+    <string name="reviews"> <u>Check Reviews</u>.</string>
+    <string name="addreviews"> Add Review</string>
+    <string name="addcomment">Add Your Comment</string>
+    <string name="comment">Comment</string>
+    <string name="addtocart">Add To Cart</string>
+    <string name="addtowishlist">Add To Wishlist</string>
+    <string name="loginto">You Need To Login</string>
+    <string name="ok">OK</string>
+    <string name="Succes">Your Review Added Successfully</string>
+    <string name="product">Product</string>
+    <string name="reviewsword">Reviews</string>
+    <string name="wishlistempity">Your Wish list is empty </string>
+    <string name="cartempty">Your Cart is empty </string>
+    <string name="delete">You will delete item, Are you sure?</string>
+    <string name="deletitem">Your Item Deleted Successfully</string>
+    <string name="qty">Qty.</string>
+    <string name="outstock">Out Of Stock</string>
+    <string name="checkout">CheckOut</string>
+    <string name="total">Total</string>
+    <string name="sar">SAR</string>
+    <string name="item">item(s)</string>
+    <string name="discoverproduct">Discover Our Products</string>
+    <string name="nomatch">Sorry We Don\'t Find Any matched</string>
+
+    <string name="message">info@shahadw3sal.com</string>
+    <string name="website">www.shahadw3sal.com</string>
+    <string name="phone">+966114771114</string>
+    <string name="contact_info">If you have any question about our app or any suggestion, please contact us.We look forword hearing from you.</string>
+    <string name="send_Comment">Your Comment Added Successfully</string>
+    <string name="about_us">Shahad Wa Asal Shop version 1.0</string>
+    <string name="copy_right">\u00a9 2019 SMT</string>
+    <string name="language">Change Language</string>
+    <string name="welcome">Welcome</string>
+    <string name="lastname">Last Name</string>
+    <string name="address1">Address 1</string>
+    <string name="address2">Address 2</string>
+    <string name="city">zone</string>
+    <string name="country">Country</string>
+    <string name="zone">city</string>
+    <string name="postcode">PostCode</string>
+    <string name="Continue">Continue</string>
+
+    <!-- Todo Old App ID -->
+    <!--<string name="facebook_app_id">1883976791867752</string>-->
+    <!--<string name="fb_login_protocol_scheme">fb1883976791867752</string>-->
+
+    <!--Todo New App ID-->
+    <string name="facebook_app_id">295654904479492</string>
+    <string name="fb_login_protocol_scheme">fb295654904479492</string>
+
+
+    <string name="payment">Payment Details</string>
+    <string name="savedAddress">use address saved previous</string>
+    <string name="newAddress">add new address</string>
+    <string name="paymentAddress">Payment Address</string>
+    <string name="ToastConfirm">confirm successfully</string>
+    <string name="ToastConfirmPrev">confirmed previously</string>
+    <string name="confirm">confirm</string>
+    <string name="TitleNewPaymentAddress">Payment Address</string>
+    <string name="Fname">first name </string>
+    <string name="sname">second name</string>
+    <string name="area">area</string>
+    <string name="continue_">continue</string>
+    <string name="ask">IS shipping address like payment address ?</string>
+    <string name="TitleNewShippingAddress">Shipping Address </string>
+    <string name="msg_enter_valid_postCode">Please enter valid post code  </string>
+    <string name="forgetpassword">have you forgotten your password ?</string>
+    <string name="passrecovery">password recovery</string>
+    <string name="msg_enter_valid_name">Name can\'t contain numbers</string>
+    <string name="msg_add_comment">please add comment</string>
+    <string name="msg_valid_comment">add comment with 10 letters at least</string>
+    <string name="msg_validate_rate">please rate the product</string>
+    <string name="msg_continue_from_cart">continue</string>
+    <string name="msg_invalid_login">Invalid username or password</string>
+    <string name="msg_add_cart">added to cart successfully</string>
+    <string name="msg_not_add_cart">sorry you can\'t add his product</string>
+    <string name="status">status</string>
+    <string name="products">products</string>
+    <string name="msg_login">please login first </string>
+    <string name="msg_enter_valid_name_at_lest_4ch"> please enter name with 4 char at least</string>
+    <string name="msg_valid_review">please insert 10 char at least</string>
+
+    <string name="loginPass">please enter password</string>
+    <string name="registerPass">please insert password with 8 char at least </string>
+
+    <string name="no_payment_address">No payment address found</string>
+    <string name="visitor">welcome guest</string>
+    <string name="success_register">Registered Successfully</string>
+    <string name="verification_code">Verification Code</string>
+    <string name="verification_code_not">I didn\'t get any code via sms!?</string>
+    <string name="registerVerify">Please enter the 4 digits that was sent to you</string>
+    <string name="verify">Verify</string>
+    <string name="update_password">Update Password</string>
+    <string name="new_password">New Password</string>
+    <string name="sms_msg">Verification code sent to you via SMS</string>
+    <string name="pass_msg">Password Updated Successfully</string>
+    <string name="title_activity_testmap">Map</string>
+    <string name="title_activity_test_maps">Map</string>
+    <string name="mgas_service">Instant Sizes Service</string>
+    <string name="call_us">Call Us</string>
+    <string name="call_us_txt"> +966531356800 Press OK to call us</string>
+    <string name="title_activity_maps_te">Map</string>
+    <string name="title_activity_testt">Map</string>
+</resources>
